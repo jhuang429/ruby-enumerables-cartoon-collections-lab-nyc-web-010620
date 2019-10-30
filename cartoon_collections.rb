@@ -17,7 +17,7 @@ end
 def find_the_cheese(array)
   result = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.include?(cheese_types)
+  if array.include?(cheese_types.each)
     result = array.index(cheese_types)
   end
   result
